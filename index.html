@@ -3,8 +3,9 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
-    <title>SVGPathPainter - jQuery Plugin by Sebastian Eck</title>
-    <meta name="description" content="">
+    <title>SVGPathPainter | jQuery Plugin by Sebastian Eck</title>
+    <meta name="description"
+          content="A jQuery plugin that animates SVG paths to look like handdrawn.">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
     <link href='http://fonts.googleapis.com/css?family=Raleway:500,900,200'
@@ -15,9 +16,9 @@
 
 <main>
 
-    <header>
-        <h1>
-            <svg version="1.1" id="title" xmlns="http://www.w3.org/2000/svg"
+<header>
+    <h1>
+        <svg version="1.1" id="title" xmlns="http://www.w3.org/2000/svg"
              x="0px" y="0px"
              width="376.329px" height="51.667px" viewBox="0 0 376.329 51.667"
                 xml:space="preserve">
@@ -107,21 +108,23 @@
 		c-0.381,0.391,36.09,0.188,36.026,0.218c-0.205-0.057-36.43,26.844-36.142,26.828c-0.043-0.094,36.084,0.15,36.002-0.054" />
             </g>
         </svg>
-        </h1>
+    </h1>
 
-        <p>A jQuery plugin that animates SVG paths to look like handdrawn.</p>
+    <p>A jQuery plugin that animates SVG paths to look like handdrawn.</p>
 
-        <aside>Notice: This currently works in Chrome and Firefox only. Users of other browsers will see the SVGs, but no animations.</aside>
+    <aside>Notice: This currently works in Chrome and Firefox only. Users of
+        other browsers will see the SVGs, but no animations.
+    </aside>
 
-    </header>
+</header>
 
-    <section>
-        <h2>Examples</h2>
-        <article>
-            <div class="wrapper">
-                <h3>Paint on page load</h3>
-                <figure class="example">
-                    <svg id="star-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+<section>
+    <h2>Examples</h2>
+    <article>
+        <div class="wrapper">
+            <h3>Paint on page load</h3>
+            <figure class="example">
+                <svg id="star-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
                             <path class="spp" d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
                                 c1.089,0.158,1.335,0.916,0.547,1.684L74.379,60.837c-0.788,0.769-1.28,2.283-1.095,3.368l4.762,27.767
@@ -131,17 +134,17 @@
                                 C49.509,7.107,50.306,7.107,50.792,8.093"/>
                         </g>
                     </svg>
-                </figure>
-                <p>Simply call <code>$('#mySVG').SVGPathPainter();</code> to get
-                    your paths painted directly on page load.</p>
-                <div class="clr"></div>
-            </div>
-        </article>
-        <article>
-            <div class="wrapper">
-                <h3>Paint on custom call</h3>
-                <figure class="example">
-                    <svg id="heart-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+            </figure>
+            <p>Simply call <code>$('#mySVG').SVGPathPainter();</code> to get
+                your paths painted directly on page load.</p>
+            <div class="clr"></div>
+        </div>
+    </article>
+    <article>
+        <div class="wrapper">
+            <h3>Paint on custom call</h3>
+            <figure class="example">
+                <svg id="heart-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
                             <path class="spp" d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
                                 c1.089,0.158,1.335,0.916,0.547,1.684L74.379,60.837c-0.788,0.769-1.28,2.283-1.095,3.368l4.762,27.767
@@ -150,21 +153,24 @@
                                 c-0.788-0.768-0.542-1.525,0.547-1.684l27.88-4.051c1.088-0.158,2.377-1.095,2.864-2.081L49.022,8.093
                                 C49.509,7.107,50.306,7.107,50.792,8.093"/>
                         </g>
-                    </svg><br>
-                    <button id="paint-2">Paint!</button>
-                </figure>
-                <p>Initialize the plugin with<br>
-                    <code>mySVG = $('#mySVG').SVGPathPainter({ initialDelay: false });</code><br>
-                    to prevent initial painting.</p>
-                <p>When desired, call <code>mySVG.SVGPathPainter('paint');</code> to paint the paths.</p>
-                <div class="clr"></div>
-            </div>
-        </article>
-        <article>
-            <div class="wrapper">
-                <h3>Attach plugin to several SVGs</h3>
-                <figure class="example">
-                    <svg id="balloon-3" style="margin-right: 1em;" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+                    </svg>
+                <br>
+                <button id="paint-2">Paint!</button>
+            </figure>
+            <p>Initialize the plugin with<br>
+                <code>mySVG = $('#mySVG').SVGPathPainter({ initialDelay: false
+                    });</code><br>
+                to prevent initial painting.</p>
+            <p>When desired, call <code>mySVG.SVGPathPainter('paint');</code> to
+                paint the paths.</p>
+            <div class="clr"></div>
+        </div>
+    </article>
+    <article>
+        <div class="wrapper">
+            <h3>Attach plugin to several SVGs</h3>
+            <figure class="example">
+                <svg id="balloon-3" style="margin-right: 1em;" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
                             <path class="spp" d="M55.831,89.916c0,0-4.229-5.372-4.229-8.46c0-3.102,31.506-20.916,31.506-40.544
                                 c0-19.629-11.336-35.196-33.111-35.196c-21.775,0-33.027,14.191-33.027,35.321c0,21.129,28.755,37.694,28.755,40.419
@@ -181,20 +187,22 @@
                                 c-0.788-0.768-0.542-1.525,0.547-1.684l27.88-4.051c1.088-0.158,2.377-1.095,2.864-2.081L49.022,8.093
                                 C49.509,7.107,50.306,7.107,50.792,8.093"/>
                         </g>
-                    </svg><br>
-                    <button id="paint-3">Paint!</button>
-                </figure>
-                <p>Like most jQuery Plugins, you can also call this one with a selector matching more than one element, e.g.<br>
-                    <code>$('#svg-1, #svg-2').SVGPathPainter();</code><br>
+                    </svg>
+                <br>
+                <button id="paint-3">Paint!</button>
+            </figure>
+            <p>Like most jQuery Plugins, you can also call this one with a
+                selector matching more than one element, e.g.<br>
+                <code>$('#svg-1, #svg-2').SVGPathPainter();</code><br>
                 This results in painting paths at the same time.</p>
-                <div class="clr"></div>
-            </div>
-        </article>
-        <article>
-            <div class="wrapper">
-                <h3>Usage of options</h3>
-                <figure class="example">
-                    <svg id="tree-4-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+            <div class="clr"></div>
+        </div>
+    </article>
+    <article>
+        <div class="wrapper">
+            <h3>Usage of options</h3>
+            <figure class="example">
+                <svg id="tree-4-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp" class="st3">
                             <path class="spp" d="M8.76,91.732c17.667-8.553,63.193-9.232,77.689,0"/>
                             <path class="spp" d="M32.899,38.447c8.38,13.59,11.778,16.354,12.344,47.107"/>
@@ -205,11 +213,12 @@
                                 s0.566-10.59,11.212-10.59s10.646,10.137,10.646,10.137s6.342-11.949,14.27-5.833S77.05,27.12,77.05,27.12
                                 s9.966-3.568,13.816,4.359s-7.278,13.376-7.278,13.376s9.405,6.87,3.541,12.332c-9.06,8.438-19.139-1.188-19.139-1.188"/>
                         </g>
-                    </svg><br>
-                    <button id="paint-4-1">Paint!</button>
-                </figure>
-                <figure class="example">
-                    <svg id="tree-4-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+                    </svg>
+                <br>
+                <button id="paint-4-1">Paint!</button>
+            </figure>
+            <figure class="example">
+                <svg id="tree-4-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp" class="st3">
                             <path class="spp" d="M8.76,91.732c17.667-8.553,63.193-9.232,77.689,0"/>
                             <path class="spp" d="M32.899,38.447c8.38,13.59,11.778,16.354,12.344,47.107"/>
@@ -220,20 +229,37 @@
                                 s0.566-10.59,11.212-10.59s10.646,10.137,10.646,10.137s6.342-11.949,14.27-5.833S77.05,27.12,77.05,27.12
                                 s9.966-3.568,13.816,4.359s-7.278,13.376-7.278,13.376s9.405,6.87,3.541,12.332c-9.06,8.438-19.139-1.188-19.139-1.188"/>
                         </g>
-                    </svg><br>
-                    <button id="paint-4-2">Paint!</button>
-                </figure>
-                <p>There are a few options you can use when initializing the plugin.</p>
-                <p>
-                    <code>initialDelay</code> (default: 300) means the milliseconds the painting is delayed from page load. Set to <code>false</code> if you wish no initial animation.<br>
-                    <code>pathDelay</code> (default: 50) defines the milliseconds of pause between the animation of two paths.<br>
-                    <code>speed</code> (default: 1.5) is a factor to slow down (or accelerate if < 1) the speed of a path being painted.
-                </p>
-                <p>Compare the animation of the SVGs here. The left one uses defaults, the right one uses <code>pathDelay: 500</code> and <code>speed: 3.2</code>.</p>
-                <div class="clr"></div>
-            </div>
-        </article>
-    </section>
+                    </svg>
+                <br>
+                <button id="paint-4-2">Paint!</button>
+            </figure>
+            <p>There are a few options you can use when initializing the
+                plugin.</p>
+            <p>
+                <code>initialDelay</code> (default: 300) means the milliseconds
+                the painting is delayed from page load. Set to
+                <code>false</code> if you wish no initial animation.<br>
+                <code>pathDelay</code> (default: 50) defines the milliseconds of
+                pause between the animation of two paths.<br>
+                <code>speed</code> (default: 1.5) is a factor to slow down (or
+                accelerate if < 1) the speed of a path being painted.
+            </p>
+            <p>Compare the animation of the SVGs here. The left one uses
+                defaults, the right one uses <code>pathDelay: 500</code> and
+                <code>speed: 3.2</code>.</p>
+            <div class="clr"></div>
+        </div>
+    </article>
+</section>
+
+<section>
+    <h2><a href="https://github.com/eckify/SVGPathPainter">Get on GitHub</a>
+    </h2>
+    <p class="wrapper" style="text-align: center; margin-bottom: 50px;">
+        SVGPathPainter is a free JQuery plugin by
+        <a href="http://eckstase.de" target="_blank">Sebastian Eck</a>,
+        published under the MIT license.</p>
+</section>
 
 </main>
 
