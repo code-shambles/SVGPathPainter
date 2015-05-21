@@ -1,0 +1,91 @@
+html, body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Raleway', arial, helvetica, sans-serif;
+    font-weight: 200;
+    color: #fff;
+    background: #524E4C;
+    font-size: 18px;
+}
+
+.clr {
+    clear: both;
+}
+
+h1, h2, h3 {
+    margin-top: 0;
+    font-family: 'Raleway';
+    font-weight: 900;
+    text-align: center;
+}
+h1 {
+    font-size: 35px;
+}
+h2 {
+    font-size: 30px;
+}
+
+header, h1, .wrapper {
+    width: 90%;
+    min-width: 300px;
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+header {
+    width: 100%;
+    margin: 200px auto 160px;
+    text-align: center;
+    font-size: 33px;
+}
+#title {
+    width: 100%;
+    min-width: 280px;
+    max-width: 600px;
+    height: 100px;
+}
+#title path.spp {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+header aside {
+    font-size: 13px;
+}
+
+article {
+    position: relative;
+    width: 100%;
+    margin-bottom: 33px;
+    padding: 1em 0;
+    background: #4a4645;
+}
+
+.example {
+    position: relative;
+    display: inline-block;
+    float: left;
+    margin: 0 1em 1em 0;
+}
+.example svg {
+    border: 3px dotted #7c7673;
+}
+.example svg path.spp {
+    fill: none;
+    stroke: #fff;
+    stroke-width: 3px;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-miterlimit: 10;
+}
+.example button {
+    width: 100%;
+    padding: 4px 0;
+    font-family: 'Raleway';
+    color: #fff;
+    background: #7c7673;
+    border: 0 none;
+}
