@@ -1,0 +1,23 @@
+{
+  "name": "SVGPathPainter",
+  "version": "1.0.0",
+  "description": "A jQuery plugin that animates SVG paths to look like handdrawn.",
+  "main": "SVGPathPainter-0.1.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/eckify/SVGPathPainter.git"
+  },
+  "keywords": [
+    "ecosystem:jquery",
+    "jquery-plugin"
+  ],
+  "author": "Sebastian Eck",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/eckify/SVGPathPainter/issues"
+  },
+  "homepage": "https://github.com/eckify/SVGPathPainter"
+}
