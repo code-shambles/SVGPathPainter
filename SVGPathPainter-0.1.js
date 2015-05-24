@@ -1,3 +1,11 @@
+/**
+ * SVGPathPainter
+ * A jQuery plugin that animates SVG paths to look like handdrawn.
+ *
+ * @version 0.1
+ * @license MIT
+ * @author Sebastian Eck
+ */
 (function () {
     SVGPathPainter = new function () {
         /**
