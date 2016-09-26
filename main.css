@@ -1,99 +1,144 @@
 html, body {
-    padding: 0;
-    margin: 0;
-    font-family: 'Raleway', arial, helvetica, sans-serif;
-    font-weight: 200;
-    color: #fff;
-    background: #524E4C;
-    font-size: 18px;
+  padding: 0;
+  margin: 0;
+  font-family: 'Raleway', arial, helvetica, sans-serif;
+  font-weight: 300;
+  color: #fff;
+  background: #413f3e;
+}
+html {
+  font-size: 10px;
+}
+body {
+  font-size: 1.6rem;
+  line-height: 2.4rem;
 }
 
 .clr {
-    clear: both;
+  clear: both;
 }
 
 a {
-    color: #11aac1;
-    text-decoration: none;
+  color: #c5a80d;
+  text-decoration: none;
 }
 a:hover, a:active, a:focus {
-    text-decoration: underline;
+  text-decoration: underline;
 }
 
 h1, h2, h3 {
-    margin-top: 0;
-    font-family: 'Raleway';
-    font-weight: 900;
-    text-align: center;
+  margin-top: 0;
+  font-weight: 300;
+}
+h1, h2 {
+  text-align: center;
 }
 h1 {
-    font-size: 35px;
+  font-size: 3.5rem;
 }
 h2 {
-    font-size: 30px;
+  font-size: 3.0rem;
+}
+h3 {
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em
 }
 
 header, h1, .wrapper {
-    width: 90%;
-    min-width: 300px;
-    max-width: 900px;
-    margin: 0 auto;
+  width: 90%;
+  min-width: 300px;
+  max-width: 760px;
+  margin: 0 auto;
+}
+.wrapper {
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 130px;
+  min-height: 100px;
+}
+footer .wrapper {
+  padding-left: 0;
 }
 
 header {
-    width: 100%;
-    margin: 200px auto 160px;
-    text-align: center;
-    font-size: 33px;
+  width: 100%;
+  margin: 200px auto 160px;
+  text-align: center;
+  font-size: 3.3rem;
 }
 #title {
-    width: 100%;
-    min-width: 280px;
-    max-width: 600px;
-    height: 100px;
+  width: 100%;
+  min-width: 280px;
+  max-width: 600px;
+  height: 100px;
 }
-#title path.spp {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 3px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
+#title path {
+  fill: none;
+  stroke: #f7e9ba;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+header p {
+    line-height: 4rem;
 }
 header aside {
-    font-size: 13px;
+  font-size: 1.4rem;
+  color: #f7e9ba;
 }
 
 article {
-    position: relative;
-    width: 100%;
-    margin-bottom: 33px;
-    padding: 1em 0;
-    background: #4a4645;
+  position: relative;
+  width: 100%;
+  margin-bottom: 33px;
+  padding: 1em 0;
+  background: #524e4c;
+}
+
+.code {
+  display: inline-block;
+  padding: 0 5px;
+  font-family: 'Roboto Mono', monospace;
+  font-size: 1.4rem;
+  color: #f7e9ba;
+  background: #413f3e;
+}
+pre.code {
+  display: block;
+  padding: 16px 20px;
+  line-height: 2rem;
 }
 
 .example {
-    position: relative;
-    display: inline-block;
-    float: left;
-    margin: 0 1em 1em 0;
+  display: inline-block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  margin: 0 0 1em 0;
+  width: 106px;
 }
 .example svg {
-    border: 3px dotted #7c7673;
+  border: 3px dotted #7c7673;
 }
-.example svg path.spp {
-    fill: none;
-    stroke: #fff;
-    stroke-width: 3px;
-    stroke-linecap: round;
-    stroke-linejoin: round;
-    stroke-miterlimit: 10;
+.example svg path {
+  fill: none;
+  stroke: #fff;
+  stroke-width: 3px;
+  stroke-linecap: round;
+  stroke-linejoin: round;
+  stroke-miterlimit: 10;
+}
+.example svg .spp path, .example svg path.spp {
+  stroke: #f7e9ba;
 }
 .example button {
-    width: 100%;
-    padding: 4px 0;
-    font-family: 'Raleway';
-    color: #fff;
-    background: #7c7673;
-    border: 0 none;
+  width: 106px;
+  padding: 4px 0;
+  margin-bottom: 16px;
+  font-family: 'Raleway';
+  color: #fff;
+  background: #7c7673;
+  border: 0 none;
 }

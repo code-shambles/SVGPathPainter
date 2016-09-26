@@ -5,10 +5,12 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
     <title>SVGPathPainter | jQuery Plugin by Sebastian Eck</title>
     <meta name="description"
-          content="A jQuery plugin that animates SVG paths to look like handdrawn.">
+          content="A jQuery plugin that animates SVG paths in handdrawn style.">
+    <meta name="author" content="Sebastian Eck">
+    <meta name="date" content="2016-09-27T00:00:00+02:00">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 
-    <link href='http://fonts.googleapis.com/css?family=Raleway:500,900,200'
+    <link href='http://fonts.googleapis.com/css?family=Raleway:300,500,700|Roboto+Mono'
           rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="main.css">
 </head>
@@ -24,109 +26,171 @@
                 xml:space="preserve">
             SVG Path Painter
             <g class="spp">
-                <path class="spp" d="M22.216,12.771c-0.432-4.575-4.141-8.738-8.917-8.473c-5.505-0.327-9.221,3.522-9.59,8.737
+                <path d="M22.216,12.771c-0.432-4.575-4.141-8.738-8.917-8.473c-5.505-0.327-9.221,3.522-9.59,8.737
 		c0.448,17.735,18.345,16.396,18.52,27.253c-0.32,4.438-4.102,8.71-9.473,8.646c-5.003-0.204-8.976-3.943-8.795-9.196" />
             </g>
             <g class="spp">
-                <path class="spp" d="M31.094,3.947c0.137,0.196,0.126,17.879-0.374,27.245c0.497,8.58,9.064,17.976,8.993,17.786
+                <path d="M31.094,3.947c0.137,0.196,0.126,17.879-0.374,27.245c0.497,8.58,9.064,17.976,8.993,17.786
 		c0.586,0.32,9.052-9.007,9.392-17.944c-0.396-8.998,0.053-27.263-0.026-27.243" />
             </g>
             <g class="spp">
-                <path class="spp" d="M75.829,13.062c0.147-4.969-4.081-8.794-8.813-8.982c-5.125-0.222-9.059,3.864-8.923,8.868
+                <path d="M75.829,13.062c0.147-4.969-4.081-8.794-8.813-8.982c-5.125-0.222-9.059,3.864-8.923,8.868
 			c0.137,0.196,0.126,26.879-0.374,27.245c0.497,4.551,4.094,8.976,8.993,8.786c5.557,0.32,9.052-4.036,9.392-8.944" />
-                <path class="spp"
+                <path
                       d="M67.231,22.116c-0.133,0.143,8.82-0.106,8.598-0.055c0.147,0.002-0.051,27.206,0.188,27.018" />
             </g>
             <g class="spp">
-                <path class="spp"
+                <path
                       d="M102.957,4.181c0.275-0.065,0.142,45.078-0.196,44.903" />
-                <path class="spp" d="M103.154,4.013c-0.03,0.2,8.88,0.167,8.932,0.046c4.841,0.122,9.146,4.086,9.136,8.7
+                <path d="M103.154,4.013c-0.03,0.2,8.88,0.167,8.932,0.046c4.841,0.122,9.146,4.086,9.136,8.7
 			c-0.461,5.296-4.422,9.302-9.124,9.5c-0.047-0.249-9.082-0.18-9.122-0.195" />
             </g>
             <g class="spp">
-                <path class="spp" d="M121.158,26.337c-0.334-2.267,2.011-4.324,4.446-4.123c2.418-0.272,4.481,1.859,4.52,4.499
+                <path d="M121.158,26.337c-0.334-2.267,2.011-4.324,4.446-4.123c2.418-0.272,4.481,1.859,4.52,4.499
 			c-0.09-0.032,0.098,22.047-0.167,22.468" />
-                <path class="spp" d="M129.72,44.784c0.171,2.082-1.982,4.362-4.033,4.366c-2.809-0.356-4.733-2.048-4.528-4.813
+                <path d="M129.72,44.784c0.171,2.082-1.982,4.362-4.033,4.366c-2.809-0.356-4.733-2.048-4.528-4.813
 			c-0.334,0.219-0.004-8.824-0.054-8.623c-0.067-2.758,1.996-4.655,4.52-4.501c2.396-0.032,4.598,1.562,4.333,4.468" />
             </g>
             <g class="spp">
-                <path class="spp" d="M138.84,4.118c0.019-0.238-0.029,40.19,0.323,40.181c-0.443,2.971,1.742,4.582,4.479,4.772
+                <path d="M138.84,4.118c0.019-0.238-0.029,40.19,0.323,40.181c-0.443,2.971,1.742,4.582,4.479,4.772
 			c2.529,0.079,4.221-2.292,4.109-4.425c0.406-0.31,0.072-13.591,0.201-13.529" />
-                <path class="spp"
+                <path
                       d="M138.828,22.182c0.012-0.063,9.03-0.302,9.363,0.019" />
             </g>
             <g class="spp">
-                <path class="spp"
+                <path
                       d="M156.944,4.042c0.212-0.323,0.259,45.136,0.344,45.024" />
-                <path class="spp" d="M157.156,26.219c0.047-2.026,1.687-4.037,4.52-4.194c2.236-0.021,4.516,2.19,4.164,4.594
+                <path d="M157.156,26.219c0.047-2.026,1.687-4.037,4.52-4.194c2.236-0.021,4.516,2.19,4.164,4.594
 			c0.019-0.238-0.029,22.19,0.323,22.181" />
             </g>
             <g class="spp">
-                <path class="spp"
+                <path
                       d="M193.244,3.734c-0.3,0.308-0.088,44.984-0.103,45.492" />
-                <path class="spp" d="M193.095,4.115c-0.32-0.32,8.671-0.283,8.949-0.035c5.171-0.346,8.9,3.991,8.687,9.116
+                <path d="M193.095,4.115c-0.32-0.32,8.671-0.283,8.949-0.035c5.171-0.346,8.9,3.991,8.687,9.116
 			c0.411,5.001-3.472,8.871-8.574,8.523c0.047,0.459-9.328,0.463-8.98,0.306" />
             </g>
             <g class="spp">
-                <path class="spp" d="M210.945,26.464c0.112-2.161,2.164-4.349,4.428-4.651c2.84-0.041,4.671,2.282,4.401,4.482
+                <path d="M210.945,26.464c0.112-2.161,2.164-4.349,4.428-4.651c2.84-0.041,4.671,2.282,4.401,4.482
 			c-0.009,0.037-0.044,22.9,0.47,22.439" />
-                <path class="spp" d="M219.727,44.559c-0.013,2.148-1.504,4.666-4.325,4.728c-2.524-0.464-4.16-2.156-4.456-4.822
+                <path d="M219.727,44.559c-0.013,2.148-1.504,4.666-4.325,4.728c-2.524-0.464-4.16-2.156-4.456-4.822
 			c0.112,0.324,0.149-8.849-0.072-9.151c0.354-2.526,2.186-4.232,4.401-4.518c2.477,0.037,4.456,2.415,4.97,4.439" />
             </g>
             <g class="spp">
-                <path class="spp" d="M228.741,22.521c0.038-0.128,0.078,22.652,0.285,22.183c-0.3,2.841,1.702,4.519,4.679,4.935
+                <path d="M228.741,22.521c0.038-0.128,0.078,22.652,0.285,22.183c-0.3,2.841,1.702,4.519,4.679,4.935
 			c2.182,0.148,4.157-2.33,4.532-4.413c-0.292-0.261-0.18-13.437,0.004-13.58" />
-                <path class="spp"
+                <path
                       d="M229.097,14.064c-0.188-0.544,0.683-1.172,0.946-1.263" />
             </g>
             <g class="spp">
-                <path class="spp" d="M246.88,26.782c0.022-2.712,2.231-4.718,4.814-5.028c2.294,0.233,4.349,2.063,4.047,4.767
+                <path d="M246.88,26.782c0.022-2.712,2.231-4.718,4.814-5.028c2.294,0.233,4.349,2.063,4.047,4.767
 			c0.038-0.128,0.078,22.652,0.285,22.183" />
-                <path class="spp"
+                <path
                       d="M247.223,21.767c-0.343,0.516-0.32,27.289-0.27,27.517" />
             </g>
             <g class="spp">
-                <path class="spp" d="M265.075,4.015c-0.144,0.001,0.015,40.355-0.017,40.395c0.164,2.343,1.836,4.873,4.523,4.695
+                <path d="M265.075,4.015c-0.144,0.001,0.015,40.355-0.017,40.395c0.164,2.343,1.836,4.873,4.523,4.695
 			c2.356,0.179,4.612-2.365,4.32-4.549c0.194,0.009-0.161-13.535,0.101-13.568" />
-                <path class="spp"
+                <path
                       d="M264.948,21.771c0.127,0.244,8.983,0.245,8.762,0.454" />
             </g>
             <g class="spp">
-                <path class="spp" d="M292.106,44.318c-0.381,2.876-1.925,4.688-4.474,4.718c-2.69-0.057-4.93-2.171-4.642-4.672
+                <path d="M292.106,44.318c-0.381,2.876-1.925,4.688-4.474,4.718c-2.69-0.057-4.93-2.171-4.642-4.672
 		c-0.043-0.094,0.084-17.85,0.002-18.054c-0.283-2.071,2.08-4.401,4.438-4.295c2.643-0.146,4.65,2.104,4.791,4.251
 		c-0.343,0.516-0.32,13.789-0.27,14.017c0.241-0.529-8.95-0.296-8.856-0.219" />
             </g>
             <g class="spp">
-                <path class="spp"
+                <path
                       d="M300.992,21.704c0.015,0.029-0.196,27.425-0.144,27.195" />
-                <path class="spp" d="M301.007,26.233c-0.211-2.09,2.114-4.415,4.696-4.034c2.344,0.055,4.43,1.852,4.022,4.51
+                <path d="M301.007,26.233c-0.211-2.09,2.114-4.415,4.696-4.034c2.344,0.055,4.43,1.852,4.022,4.51
 			c0.471-0.202,0.266,13.155,0.202,13.271" />
             </g>
             <g class="spp">
-                <path class="spp" d="M337.271,49.108c-0.066-0.33-0.23-27.374-0.146-27.135c-0.086-0.162,17.752-18,17.851-18
+                <path d="M337.271,49.108c-0.066-0.33-0.23-27.374-0.146-27.135c-0.086-0.162,17.752-18,17.851-18
 		c-0.054,0.293,17.936,18.122,18.018,17.73c0.015,0.029-0.196,27.425-0.144,27.195c0.354,0.3-35.787-26.646-35.742-27.081
 		c-0.381,0.391,36.09,0.188,36.026,0.218c-0.205-0.057-36.43,26.844-36.142,26.828c-0.043-0.094,36.084,0.15,36.002-0.054" />
             </g>
         </svg>
     </h1>
 
-    <p>A jQuery plugin that animates SVG paths to look like handdrawn.</p>
+    <p>A jQuery plugin that animates SVG paths in handdrawn style.</p>
 
     <aside>Notice: This currently works in Chrome and Firefox only. Users of
-        other browsers will see the SVGs, but no animations.
+        other browsers will see the full SVGs, but no animations.
     </aside>
 
 </header>
 
 <section>
-    <h2>Examples</h2>
+  <h2>Prepare Your SVG</h2>
+  <article>
+    <div class="wrapper">
+      <h3>Paint Groups Of Paths</h3>
+      <figure class="example">
+        <svg id="bear-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+          <g class="spp">
+            <path d="M87.167,67c0,8.468-16.565,15.333-37,15.333c-20.435,0-37-6.865-37-15.333c0-8.469,16.565-46,37-46	C70.602,21,87.167,58.531,87.167,67z"/>
+            <path d="M15.167,24.667c0-3.682,2.985-6.667,6.667-6.667c3.682,0,6.667,2.985,6.667,6.667"/>
+            <path d="M72.166,24.667c0-3.682,2.985-6.667,6.667-6.667c3.683,0,6.667,2.985,6.667,6.667"/>
+            <path d="M72.166,61.475c0,6.197-5.024,11.235-11.224,11.235c-6.198,0-11.224-5.21-11.224-11.21h0.563c0,6-5.024,11.21-11.224,11.21	c-6.198,0-11.224-5.032-11.224-11.229"/>
+          </g>
+        </svg>
+        <br>
+        <button id="paint-bear-1">Paint!</button>
+      </figure>
+      <p>
+        Wrap the paths you want to be painted in a group with the class "spp":
+        <pre class="code">
+&lt;svg>
+  &lt;g class="spp">
+    &lt;path d="..." />
+    &lt;path d="..." />
+    &lt;path d="..." />
+    &lt;path d="..." />
+  &lt;/g>
+&lt;/svg></pre>
+      </p>
+    </div>
+  </article>
+  <article>
+    <div class="wrapper">
+      <h3>Paint Specific Paths</h3>
+      <figure class="example">
+        <svg id="bear-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+          <g>
+            <path d="M87.167,67c0,8.468-16.565,15.333-37,15.333c-20.435,0-37-6.865-37-15.333c0-8.469,16.565-46,37-46	C70.602,21,87.167,58.531,87.167,67z"/>
+            <path class="spp" d="M15.167,24.667c0-3.682,2.985-6.667,6.667-6.667c3.682,0,6.667,2.985,6.667,6.667"/>
+            <path class="spp" d="M72.166,24.667c0-3.682,2.985-6.667,6.667-6.667c3.683,0,6.667,2.985,6.667,6.667"/>
+            <path class="spp" d="M72.166,61.475c0,6.197-5.024,11.235-11.224,11.235c-6.198,0-11.224-5.21-11.224-11.21h0.563c0,6-5.024,11.21-11.224,11.21	c-6.198,0-11.224-5.032-11.224-11.229"/>
+          </g>
+        </svg>
+        <br>
+        <button id="paint-bear-2">Paint!</button>
+      </figure>
+      <p>
+        To paint only specific paths, give these pass the class "spp":
+        <pre class="code">
+&lt;svg>
+  &lt;g>
+    &lt;path d="..." />
+    &lt;path class="spp" d="..." />
+    &lt;path class="spp" d="..." />
+    &lt;path class="spp" d="..." />
+  &lt;/g>
+&lt;/svg></pre>
+      </p>
+    </div>
+  </article>
+</section>
+
+<section>
+    <h2>Use The Plugin</h2>
     <article>
         <div class="wrapper">
             <h3>Paint on page load</h3>
             <figure class="example">
                 <svg id="star-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
-                            <path class="spp" d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
+                            <path d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
                                 c1.089,0.158,1.335,0.916,0.547,1.684L74.379,60.837c-0.788,0.769-1.28,2.283-1.095,3.368l4.762,27.767
                                 c0.186,1.085-0.459,1.553-1.433,1.041l-24.936-13.11c-0.974-0.512-2.567-0.512-3.541,0l-24.937,13.11
                                 c-0.974,0.512-1.618,0.044-1.432-1.041l4.763-27.767c0.186-1.085-0.307-2.6-1.094-3.368L5.263,41.173
@@ -135,7 +199,7 @@
                         </g>
                     </svg>
             </figure>
-            <p>Simply call <code>$('#mySVG').SVGPathPainter();</code> to get
+            <p>Simply call <span class="code">$('#mySVG').SVGPathPainter();</span> to get
                 your paths painted directly on page load.</p>
             <div class="clr"></div>
         </div>
@@ -146,7 +210,7 @@
             <figure class="example">
                 <svg id="heart-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
-                            <path class="spp" d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
+                            <path d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
                                 c1.089,0.158,1.335,0.916,0.547,1.684L74.379,60.837c-0.788,0.769-1.28,2.283-1.095,3.368l4.762,27.767
                                 c0.186,1.085-0.459,1.553-1.433,1.041l-24.936-13.11c-0.974-0.512-2.567-0.512-3.541,0l-24.937,13.11
                                 c-0.974,0.512-1.618,0.044-1.432-1.041l4.763-27.767c0.186-1.085-0.307-2.6-1.094-3.368L5.263,41.173
@@ -158,29 +222,28 @@
                 <button id="paint-2">Paint!</button>
             </figure>
             <p>Initialize the plugin with<br>
-                <code>mySVG = $('#mySVG').SVGPathPainter({ initialDelay: false
-                    });</code><br>
+                <span class="code">mySVG = $('#mySVG').SVGPathPainter({ initialDelay: false });</span><br>
                 to prevent initial painting.</p>
-            <p>When desired, call <code>mySVG.SVGPathPainter('paint');</code> to
-                paint the paths.</p>
+            <p>When desired, call <span class="code">mySVG.SVGPathPainter('paint');</span> to paint the paths.</p>
             <div class="clr"></div>
         </div>
     </article>
     <article>
-        <div class="wrapper">
+        <div class="wrapper" style="min-height: 248px;">
             <h3>Attach plugin to several SVGs</h3>
             <figure class="example">
                 <svg id="balloon-3" style="margin-right: 1em;" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
-                            <path class="spp" d="M55.831,89.916c0,0-4.229-5.372-4.229-8.46c0-3.102,31.506-20.916,31.506-40.544
+                            <path d="M55.831,89.916c0,0-4.229-5.372-4.229-8.46c0-3.102,31.506-20.916,31.506-40.544
                                 c0-19.629-11.336-35.196-33.111-35.196c-21.775,0-33.027,14.191-33.027,35.321c0,21.129,28.755,37.694,28.755,40.419
                                 c0,3.127-6.501,7.564-3.625,9.564c2.875,2,6.23-1.376,7.605,0c1.375,1.375,5.104-0.375,5.104-0.375"/>
-                            <path class="spp" d="M53.351,82.082c1.126,0.75-0.983,2.626-5.5,2.626c-4.517,0-5.876-2.626-5.876-2.626
+                            <path d="M53.351,82.082c1.126,0.75-0.983,2.626-5.5,2.626c-4.517,0-5.876-2.626-5.876-2.626
                                 S30.347,80.73,22.345,97.109"/>
                         </g>
-                    </svg><svg id="star-3" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
+                    </svg>
+                    <svg id="star-3" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
                         <g class="spp">
-                            <path class="spp" d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
+                            <path d="M50.792,8.093l12.469,25.264c0.486,0.986,1.775,1.923,2.864,2.081l27.879,4.051
                                 c1.089,0.158,1.335,0.916,0.547,1.684L74.379,60.837c-0.788,0.769-1.28,2.283-1.095,3.368l4.762,27.767
                                 c0.186,1.085-0.459,1.553-1.433,1.041l-24.936-13.11c-0.974-0.512-2.567-0.512-3.541,0l-24.937,13.11
                                 c-0.974,0.512-1.618,0.044-1.432-1.041l4.763-27.767c0.186-1.085-0.307-2.6-1.094-3.368L5.263,41.173
@@ -189,26 +252,26 @@
                         </g>
                     </svg>
                 <br>
-                <button id="paint-3">Paint!</button>
+                <button id="paint-3">Paint both!</button>
             </figure>
             <p>Like most jQuery Plugins, you can also call this one with a
                 selector matching more than one element, e.g.<br>
-                <code>$('#svg-1, #svg-2').SVGPathPainter();</code><br>
+                <span class="code">$('#svg-1, #svg-2').SVGPathPainter();</span><br>
                 This results in painting paths at the same time.</p>
             <div class="clr"></div>
         </div>
     </article>
     <article>
-        <div class="wrapper">
+        <div class="wrapper" style="min-height: 248px;">
             <h3>Usage of options</h3>
             <figure class="example">
                 <svg id="tree-4-1" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
-                        <g class="spp" class="st3">
-                            <path class="spp" d="M8.76,91.732c17.667-8.553,63.193-9.232,77.689,0"/>
-                            <path class="spp" d="M32.899,38.447c8.38,13.59,11.778,16.354,12.344,47.107"/>
-                            <path class="spp" d="M66.874,38.447c-7.021,12.797-12.247,36.588-11.228,47.347"/>
-                            <path class="spp" d="M43.998,33.633c4.626,4.814,6.795,15.421,6.795,15.421s0.679-8.514,5.889-14.289"/>
-                            <path class="spp" d="M34.581,59.112c0,0-9.626,8.099-15.063,1.389c-6.73-8.308,1.699-13.675,1.699-13.675
+                        <g class="spp">
+                            <path d="M8.76,91.732c17.667-8.553,63.193-9.232,77.689,0"/>
+                            <path d="M32.899,38.447c8.38,13.59,11.778,16.354,12.344,47.107"/>
+                            <path d="M66.874,38.447c-7.021,12.797-12.247,36.588-11.228,47.347"/>
+                            <path d="M43.998,33.633c4.626,4.814,6.795,15.421,6.795,15.421s0.679-8.514,5.889-14.289"/>
+                            <path d="M34.581,59.112c0,0-9.626,8.099-15.063,1.389c-6.73-8.308,1.699-13.675,1.699-13.675
                                 s-14.543,1.748-13.9-10.129c0.537-9.916,12.315-9.916,12.315-9.916s-3.624-12.516,3.737-14.328s13.59,5.041,13.59,5.041
                                 s0.566-10.59,11.212-10.59s10.646,10.137,10.646,10.137s6.342-11.949,14.27-5.833S77.05,27.12,77.05,27.12
                                 s9.966-3.568,13.816,4.359s-7.278,13.376-7.278,13.376s9.405,6.87,3.541,12.332c-9.06,8.438-19.139-1.188-19.139-1.188"/>
@@ -216,15 +279,14 @@
                     </svg>
                 <br>
                 <button id="paint-4-1">Paint!</button>
-            </figure>
-            <figure class="example">
+                <br>
                 <svg id="tree-4-2" version="1.1" xmlns="http://www.w3.org/2000/svg" x="0px" y="0px" width="100px" height="100px" viewBox="0 0 100 100" xml:space="preserve">
-                        <g class="spp" class="st3">
-                            <path class="spp" d="M8.76,91.732c17.667-8.553,63.193-9.232,77.689,0"/>
-                            <path class="spp" d="M32.899,38.447c8.38,13.59,11.778,16.354,12.344,47.107"/>
-                            <path class="spp" d="M66.874,38.447c-7.021,12.797-12.247,36.588-11.228,47.347"/>
-                            <path class="spp" d="M43.998,33.633c4.626,4.814,6.795,15.421,6.795,15.421s0.679-8.514,5.889-14.289"/>
-                            <path class="spp" d="M34.581,59.112c0,0-9.626,8.099-15.063,1.389c-6.73-8.308,1.699-13.675,1.699-13.675
+                        <g class="spp">
+                            <path d="M8.76,91.732c17.667-8.553,63.193-9.232,77.689,0"/>
+                            <path d="M32.899,38.447c8.38,13.59,11.778,16.354,12.344,47.107"/>
+                            <path d="M66.874,38.447c-7.021,12.797-12.247,36.588-11.228,47.347"/>
+                            <path d="M43.998,33.633c4.626,4.814,6.795,15.421,6.795,15.421s0.679-8.514,5.889-14.289"/>
+                            <path d="M34.581,59.112c0,0-9.626,8.099-15.063,1.389c-6.73-8.308,1.699-13.675,1.699-13.675
                                 s-14.543,1.748-13.9-10.129c0.537-9.916,12.315-9.916,12.315-9.916s-3.624-12.516,3.737-14.328s13.59,5.041,13.59,5.041
                                 s0.566-10.59,11.212-10.59s10.646,10.137,10.646,10.137s6.342-11.949,14.27-5.833S77.05,27.12,77.05,27.12
                                 s9.966-3.568,13.816,4.359s-7.278,13.376-7.278,13.376s9.405,6.87,3.541,12.332c-9.06,8.438-19.139-1.188-19.139-1.188"/>
@@ -236,42 +298,56 @@
             <p>There are a few options you can use when initializing the
                 plugin.</p>
             <p>
-                <code>initialDelay</code> (default: 300) means the milliseconds
+                <span class="code">initialDelay</span> (default: 300) means the milliseconds
                 the painting is delayed from page load. Set to
-                <code>false</code> if you wish no initial animation.<br>
-                <code>pathDelay</code> (default: 50) defines the milliseconds of
+                <span class="code">false</span> if you wish no initial animation.<br>
+                <span class="code">pathDelay</span> (default: 50) defines the milliseconds of
                 pause between the animation of two paths.<br>
-                <code>speed</code> (default: 1.5) is a factor to slow down (or
+                <span class="code">speed</span> (default: 1.5) is a factor to slow down (or
                 accelerate if < 1) the speed of a path being painted.
             </p>
-            <p>Compare the animation of the SVGs here. The left one uses
-                defaults, the right one uses <code>pathDelay: 500</code> and
-                <code>speed: 3.2</code>.</p>
+            <p>Compare the animation of the SVGs here. The first one uses
+                defaults, the second one uses <span class="code">pathDelay: 500</span> and
+                <span class="code">speed: 3.2</span>.</p>
             <div class="clr"></div>
         </div>
     </article>
 </section>
 
-<section>
+<footer>
     <h2><a href="https://github.com/eckify/SVGPathPainter">Get on GitHub</a>
     </h2>
     <p class="wrapper" style="text-align: center; margin-bottom: 50px;">
         SVGPathPainter is a free JQuery plugin by
         <a href="http://eckstase.de" target="_blank">Sebastian Eck</a>,
         published under the MIT license.</p>
-</section>
+</footer>
 
 </main>
 
 
 <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
-<script src="SVGPathPainter-1.0.0.js"></script>
+<script src="SVGPathPainter-1.0.1.js"></script>
 
 <script>
     $(document).ready(function () {
-        var $ex2, $ex3, $ex4;
+        var $setup1, $setup2, $ex2, $ex3, $ex4;
         // title
         $('#title').SVGPathPainter();
+        // setup 1
+        $setup1 = $('#bear-1').SVGPathPainter({
+            initialDelay: false
+        });
+        $('#paint-bear-1').click(function () {
+            $setup1.SVGPathPainter('paint');
+        });
+        // setup 2
+        $setupx2 = $('#bear-2').SVGPathPainter({
+            initialDelay: false
+        });
+        $('#paint-bear-2').click(function () {
+            $setupx2.SVGPathPainter('paint');
+        });
         // ex 1
         $('#star-1').SVGPathPainter();
         // ex 2
