@@ -1,6 +1,6 @@
 {
   "name": "SVGPathPainter",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "A jQuery plugin that animates SVG paths in handdrawn style.",
   "main": "SVGPathPainter-1.0.1.js",
   "scripts": {
