@@ -122,11 +122,9 @@
                     for (i = 0; i < $paths.length; i++) {
                         // use 0 or the value of pathDuration used for the previous path
                         pathPrevDuration = pathDuration || 0;
-                        // this path's delay
-                        pathDelay = 0;
                         // if simultaneous path painting is not desired
                         if (!me.options.simultaneous) {
-                          // increase this path's aniamtion delay by the prvious duration plus the pathDelay
+                          // increase this path's aniamtion delay by the prvious duration plus the path's delay
                           pathDelay += me.options.pathDelay + pathPrevDuration;
                         }
                         // create a SVGPathPainter.Path new object
