@@ -96,7 +96,6 @@
                      * @type {*|jQuery|HTMLElement}
                      */
                     $paths = $('g.spp path, path.spp', $svg);
-                    console.log($paths);
                     /**
                      * Holds all found paths as SVGPathPainter.Path objects
                      * @type {Array}
@@ -123,12 +122,10 @@
                     for (i = 0; i < $paths.length; i++) {
                         // use 0 or the value of pathDuration used for the previous path
                         pathPrevDuration = pathDuration || 0;
-                        // increase this path's delay
-                        pathDelay += me.options.pathDelay;
                         // if simultaneous path painting is not desired
                         if (!me.options.simultaneous) {
-                          // increase this path's aniamtion delay by the prvious duration plus the pathDelay
-                          pathDelay += pathPrevDuration;
+                          // increase this path's aniamtion delay by the prvious duration plus the path's delay
+                          pathDelay += me.options.pathDelay + pathPrevDuration;
                         }
                         // create a SVGPathPainter.Path new object
                         pth = new SVGPathPainter.Path($paths[i], pathDelay, me.options.speed);

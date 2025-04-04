@@ -13,7 +13,7 @@ The option `simultaneous` was added. It defaults to `false`, but if set `true`, 
 The selector for paths to animate was changed to be less rigid. Now, animateable paths can be specifically defined in the SVG by giving them the class `ssp`. A group of paths can be addressed when wrapped in a `<g class="ssp">`. Formerly (in v1.0.0), such a group plus a class on each path was required.
 
 ## Howto
-See the [Github page](https://eckify.github.io/SVGPathPainter) for information and examples.
+See the [Github page](https://code-shambles.github.io/SVGPathPainter) for information and examples.
 
 ## TODOs
 * Documentation / readme
